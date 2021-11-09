@@ -1,0 +1,35 @@
+#tablaDatos{
+  margin: 1rem auto;
+  width: 90%;
+}
+
+caption {
+  margin-top: 3rem;
+}
+
+#tablaDatos tbody tr:hover {
+  background-color: rgba(50,50,50, .5);
+  color: white;
+}
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(50,50,50, .3);
+  display: none;
+}
+
+#modal.show {
+  display: block;
+}
+
+#contenido-modal {
+  width: 90%;
+  height: 60vh;
+  background-color: white;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}

@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-family:'Roboto Mono', monospace;
+}
+.izquierdo{
+  text-align: end;
+}
+.letra{
+  font-family:'Roboto Mono', monospace;
+}
+.micard{
+  width: 85%;
+  margin-inline: auto;
+}
